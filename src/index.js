@@ -9,8 +9,9 @@ import { BrowserRouter } from 'react-router-dom';
 //<React.StrictMode>
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const baseUrl = '/Host';
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={baseUrl}>
     <App />
   </BrowserRouter>
 );
