@@ -1,0 +1,26 @@
+.footer {
+    background-color: #3B312F;
+    color: white;
+    height: 90px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer h4 {
+    font-size: 18px;
+    margin-right: 0;
+  }
+
+  #row{
+    margin-top: 10px;
+  }
+  
+  
+  
+ 
+
+  
+.text-right{
+    color: aliceblue;
+    margin-left: 0;
+}
